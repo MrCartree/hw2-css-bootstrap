@@ -1,38 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Contact</title>
 </head>
+
 <body>
 
-     <!-- linking bootstraps JS, Popper.js, and jQuery -->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
- 
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-         <a class="navbar-brand" href="#">Zach LaFluer</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-           <ul class="navbar-nav">
-             <li class="nav-item active">
-               <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="index.html">About Me</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="portfolio.html">Portfolio</a>
-             </li>
-             
-           </ul>
-         </div>
-       </nav>
-    
+  <!-- linking bootstraps JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Zach LaFluer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <style>
+    body {
+      background-color: blueviolet;
+    }
+
+    .contact {
+      margin: 40px 20px;
+      border: none;
+    }
+
+    .contact-header {
+      background-color: aquamarine;
+    }
+    .contact-container {
+      padding: 10px 25px;
+    }
+    .message-box {
+      height: 100px;
+      width: 217px;
+      margin-bottom: 30px;
+    }
+
+    .submit-btn {
+      border: none;
+      background-color: pink;
+      height: 30px;
+      width: 75px;
+    }
+  </style>
+  <div class="card contact">
+    <h5 class="card-header contact-header">Contact Me</h5>
+    <container class="contact-container">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <label>Name:</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <input class="name-input" type="text" name="fname" size="25" placeholder="Name" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <label>Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <input class="email-input" type="text" name="lname" size="25" placeholder="Email" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <textarea class="message-box" size="100" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button class="submit-btn">Submit</button>
+          </div>
+        </div>
+      </div>
+    </container>
+  </div>
+  </div>
+
+
 </body>
+
 </html>
