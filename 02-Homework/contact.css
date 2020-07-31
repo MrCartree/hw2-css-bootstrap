@@ -1,0 +1,17 @@
+  .contact-container {
+    padding: 10px 25px;
+  }
+  .email-input{
+      width: 200;
+  }
+  .message-box {
+    height: 100px;
+    width: 252px;
+    margin-bottom: 30px;
+  }
+  .submit-btn {
+    border: none;
+    background-color: pink;
+    height: 30px;
+    width: 75px;
+  }

@@ -1,0 +1,14 @@
+body {
+    background-color: blueviolet;
+  }
+  .card-title{
+      background-color: aquamarine;
+  }
+  .card-main {
+      margin: 40px 20px;
+      border: none;
+  }
+  .footer-card {
+    background-color: black;
+    border-radius: 0;
+  }
