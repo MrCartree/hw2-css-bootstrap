@@ -8,6 +8,6 @@ Bootstrap v4.5 was used in the creation of this portfolio and is linked [here](h
 
 Stock images were taken from Lorem Picsum and is linked [here](https://picsum.photos/)
 
-This is deployed [here](https://mrcartree.github.io/hw2-css-bootstrap/index.html/)
+This is deployed [here](https://mrcartree.github.io/hw2-css-bootstrap/)
 
 Authored by [Zach LaFleur](http://github.com/MrCartree)
