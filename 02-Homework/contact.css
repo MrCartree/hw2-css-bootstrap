@@ -1,17 +1,20 @@
   .contact-container {
     padding: 10px 25px;
   }
-  .email-input{
+  .input{
       width: 200;
+      background-color: linen;
+      border: #343a40 solid 1px;
   }
   .message-box {
     height: 100px;
-    width: 252px;
+    width: 243px;
     margin-bottom: 30px;
   }
   .submit-btn {
     border: none;
-    background-color: pink;
+    background-color: #343a40;
     height: 30px;
     width: 75px;
+    color: gainsboro;
   }
