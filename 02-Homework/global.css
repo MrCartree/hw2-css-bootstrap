@@ -3,12 +3,13 @@ body {
   }
   .card-title{
       background-color: aquamarine;
+      font-weight: 700;
   }
   .card-main {
       margin: 40px 20px;
       border: none;
   }
   .footer-card {
-    background-color: black;
+    background-color: #343a40;
     border-radius: 0;
   }
