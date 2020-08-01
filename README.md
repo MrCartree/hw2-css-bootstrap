@@ -2,7 +2,7 @@
 
 CSS Bootstrap is a repository holding a portfolio for and about Zach LaFleur. It was created using Bootstrap 4.5 as well as CSS and HTML5. It is compatible with small screens and large screens alike.
 
-![CSS Bootstrap Porfolio About Me Page](./assets/images/screenshot.png)
+![CSS Bootstrap Porfolio About Me Page](./Assets/Images/screenshot.PNG)
 
 Bootstrap v4.5 was used in the creation of this portfolio and is linked [here](https://getbootstrap.com/)
 
