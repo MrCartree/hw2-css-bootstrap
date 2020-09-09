@@ -3,12 +3,20 @@ html {
 }
 
 body {
-  background-color: #343a40;
+  background-image: url(../Images/pexels-scott-webb-305821.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  background-color: rgb(232,231,227);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #3D7042;
 }
 
 #name {
@@ -18,7 +26,7 @@ body {
 }
 
 .card-title{
-  background-color: gainsboro;
+  background-color: transparent;
   text-align: center;
   font-weight: 700;
   font-size: 32px;
@@ -28,11 +36,12 @@ body {
 .card-main {
   margin: 40px 20px;
   border: none;
-  background-color: gainsboro;
+  background-color: transparent;
 }
 
 .footer-card {
-  background-color: #343a40;
+  background-color: #3D7042;
   border-radius: 0;
-  width: 100%
+  width: 100%;
+  border-top: none;
 }
