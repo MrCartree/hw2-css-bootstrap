@@ -3,20 +3,27 @@ html {
 }
 
 body {
-  background-image: url(../Images/pexels-scott-webb-305821.jpg);
+  background-image: url(../Images/pexels-john-cahil-rom-2170473.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
 }
 
 .navbar {
-  background-color: rgb(232,231,227);
+  background-color: transparent;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #3D7042;
+  color: yellowgreen;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke;
 }
 
 #name {
@@ -44,4 +51,5 @@ body {
   border-radius: 0;
   width: 100%;
   border-top: none;
+
 }
