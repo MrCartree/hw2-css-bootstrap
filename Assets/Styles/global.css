@@ -19,18 +19,18 @@ body {
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: yellowgreen;
+  color: #c78e9b;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: whitesmoke;
+  color: #9e707b;
 }
 
-#name {
+/* #name {
   font-size: 24px;
   font-weight: 600;
   color: gainsboro;
-}
+} */
 
 .card-title{
   background-color: transparent;
@@ -44,10 +44,15 @@ body {
   margin: 40px 20px;
   border: none;
   background-color: transparent;
+  text-align: center;
+  font-size: large;
+}
+.card-body {
+  width: fit-content;
 }
 
 .footer-card {
-  background-color: #3D7042;
+  background-color: transparent;
   border-radius: 0;
   width: 100%;
   border-top: none;

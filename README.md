@@ -6,6 +6,8 @@ CSS Bootstrap is a repository holding a portfolio for and about Zach LaFleur. It
 
 Bootstrap v4.5 was used in the creation of this portfolio and is linked [here](https://getbootstrap.com/)
 
+Background image was found [here](https://www.pexels.com/)
+
 Stock images were taken from Lorem Picsum and is linked [here](https://picsum.photos/)
 
 This is deployed [here](https://mrcartree.github.io/my-portfoio/)
