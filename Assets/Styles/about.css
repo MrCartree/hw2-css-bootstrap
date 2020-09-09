@@ -1,8 +1,8 @@
 .my-pic {
   /* float: left; */
   border-radius: 50%;
-  border: 1px solid; 
+  border: 1px solid #c78e9b; 
   height: auto;
-  width: 200px;
+  width: 150px;
   padding: none;
 }

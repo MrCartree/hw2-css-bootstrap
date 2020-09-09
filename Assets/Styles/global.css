@@ -26,6 +26,12 @@ body {
   color: #9e707b;
 }
 
+/* This is specifically for the navbar drop down menu */
+.navbar-toggler-icon {
+  background-color: #9e707b;
+  border-radius: 15%;
+}
+
 /* #name {
   font-size: 24px;
   font-weight: 600;
@@ -49,6 +55,10 @@ body {
 }
 .card-body {
   width: fit-content;
+}
+
+.second-p {
+  padding-bottom: 45px;
 }
 
 .footer-card {
