@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#343a40, #dedede);
+  background-color: #343a40;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -19,6 +19,7 @@ body {
 
 .card-title{
   background-color: gainsboro;
+  text-align: center;
   font-weight: 700;
   font-size: 32px;
   border: none;
@@ -33,4 +34,5 @@ body {
 .footer-card {
   background-color: #343a40;
   border-radius: 0;
+  width: 100%
 }
