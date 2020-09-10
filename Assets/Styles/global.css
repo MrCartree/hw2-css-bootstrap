@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
   height: 100%;
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   color: whitesmoke;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .second-p {
-  padding-bottom: 45px;
+  padding-bottom: 80px;
 }
 
 .footer-card {
@@ -66,5 +66,4 @@ body {
   border-radius: 0;
   width: 100%;
   border-top: none;
-
 }

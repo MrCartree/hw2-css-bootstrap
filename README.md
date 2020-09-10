@@ -8,6 +8,8 @@ Bootstrap v4.5 was used in the creation of this portfolio and is linked [here](h
 
 Background image was found [here](https://www.pexels.com/)
 
+The social media icons that I used were found on a free site called [iconmonstr](https://iconmonstr.com/)
+
 Stock images were taken from Lorem Picsum and is linked [here](https://picsum.photos/)
 
 This is deployed [here](https://mrcartree.github.io/my-portfoio/)
