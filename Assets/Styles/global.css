@@ -62,8 +62,15 @@ body {
 }
 
 .icon {
-  padding-top: 25px;
+  padding-top: 40px;
+  width: 40px;
+  height: auto;
   opacity: .25;
+}
+
+.instagram {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .footer-card {
