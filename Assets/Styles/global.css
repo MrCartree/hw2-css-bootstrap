@@ -61,6 +61,11 @@ body {
   padding-bottom: 80px;
 }
 
+.icon {
+  padding-top: 25px;
+  opacity: .25;
+}
+
 .footer-card {
   background-color: transparent;
   border-radius: 0;
