@@ -80,7 +80,13 @@ body {
   border-top: none;
 }
 
-.project-1 {
-  height: 200px;
-  width: 200px;
+.project {
+  height: 300px;
+  width: 300px;
+  border-radius: 15%;
+}
+
+.project:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
