@@ -1,24 +1,38 @@
-  .contact-container {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 25px;
-    justify-content: center;
-  }
-  .input{
-      width: 200;
-      background-color: linen;
-      border: #343a40 solid 1px;
-  }
-  .message-box {
-    height: 100px;
-    width: 270px;
-    margin-bottom: 30px;
-  }
-  .submit-btn {
-    border: none;
-    background-color:   #9e707b;
-    border-radius: 15px;
-    height: 30px;
-    width: 75px;
-    color: gainsboro;
-  }
+.contact-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 25px;
+  justify-content: center;
+}
+.input{
+  width: 200;
+  background-color: linen;
+  border: #343a40 solid 1px;
+}
+.message-box {
+  height: 100px;
+  width: 270px;
+  margin-bottom: 30px;
+}
+.submit-btn {
+  border: none;
+  background-color: #9e707b;
+  border-radius: 15px;
+  height: 50px;
+  width: 125px;
+  color: gainsboro;
+  outline: none;
+  box-shadow: 0 9px rgb(97, 97, 97);
+}
+
+.submit-btn:hover {
+background-color: #805c64;
+outline: none;
+}
+
+.submit-btn:active {
+  background-color: #805c64;
+  box-shadow: 0 5px rgb(73, 73, 73);
+  transform: translateY(4px);
+  outline: none;
+}
