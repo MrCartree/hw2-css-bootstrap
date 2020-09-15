@@ -22,7 +22,7 @@
   width: 125px;
   color: gainsboro;
   outline: none;
-  box-shadow: 0 9px rgb(97, 97, 97);
+  box-shadow: 0 9px rgb(99, 99, 99);
 }
 
 .submit-btn:hover {
@@ -32,7 +32,17 @@ outline: none;
 
 .submit-btn:active {
   background-color: #805c64;
-  box-shadow: 0 5px rgb(73, 73, 73);
+  box-shadow: 0 5px rgb(90, 90, 90);
   transform: translateY(4px);
   outline: none;
+}
+
+.contact-icon{
+  width: 40px;
+  height: auto;
+  opacity: .25;
+}
+
+.contact-info {
+  margin-top: 80px;
 }
