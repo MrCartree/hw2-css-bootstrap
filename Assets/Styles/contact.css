@@ -44,5 +44,9 @@ outline: none;
 }
 
 .contact-info {
-  margin-top: 80px;
+  margin-top: 150px;
+}
+
+.email{
+  margin-top: 16px;
 }
