@@ -19,16 +19,16 @@ body {
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #c78e9b;
+  color: #40acc2;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #9e707b;
+  color: #32899b;
 }
 
 /* This is specifically for the navbar drop down menu */
 .navbar-toggler-icon {
-  background-color: #9e707b;
+  background-color: #32899b;
   border-radius: 15%;
 }
 
